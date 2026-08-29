@@ -34,7 +34,6 @@ public class PlayerControl : MonoBehaviour
     private void PlayerInputMovement()
     {
         _movement = _playerControls.Movement.WASDMove.ReadValue<Vector2>();
-        Debug.Log(_movement);
     }
 
     private void Move()
