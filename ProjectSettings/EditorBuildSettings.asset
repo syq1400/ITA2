@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Park1.1.unity
     guid: 7b1d6d78703af486d9ee9145bceb788c
+  - enabled: 1
+    path: Assets/Scenes/YellowRoad.unity
+    guid: 1add655594b6f4bb58f598db9a2c3c4a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: effdc5a2ab9004ba2813743c3805b77c, type: 3}
