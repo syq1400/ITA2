@@ -8,18 +8,16 @@ public class SceneChanger : MonoBehaviour
     public string sceneToLoad;
     public Animator fadeOut;
     public float fadeTime = 5f;
-
-    private void Start()
-    {
-        //Debug.Log("working1");
-    }
+    public Vector2 newPlayerLocation;
+    private Transform _player;
     
     private void OnTriggerEnter2D(Collider2D  other)
     {
-        Debug.Log("working2");
+        //Debug.Log("working2");
 
         if (other.gameObject.CompareTag("Player"))
         {
+            _player = other.transform;
             fadeOut.Play("FadeToWhite");
             StartCoroutine(DelayedFadeOut());
         }
@@ -27,9 +25,10 @@ public class SceneChanger : MonoBehaviour
 
     IEnumerator DelayedFadeOut()
     {
-        Debug.Log("working3");
+        //Debug.Log("working3");
         yield return new WaitForSeconds(fadeTime);
         
+        _player.position = newPlayerLocation;
         SceneManager.LoadScene(sceneToLoad);
         
     }
