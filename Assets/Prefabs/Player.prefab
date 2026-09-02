@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4207560762118856648}
   - component: {fileID: 4735903406267872289}
   - component: {fileID: 4991475195475809857}
+  - component: {fileID: 8734476734788056404}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -172,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe6b46e1cc8bc4d46855fb759f60d6c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveSpeed: 5
+  moveSpeed: 7
 --- !u!114 &4991475195475809857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,3 +204,19 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &8734476734788056404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8520736138575828505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b15e18aa1aa4b99b6cb3aba313233f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StatsManager
+  moveSpeed: 7
+  playerName: Ebi
+  playerWins: 1
+  playerMoney: 100

@@ -7,11 +7,13 @@ public class ConfinerFinder : MonoBehaviour
     private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
+        //Debug.Log("OnSceneLoaded");
     }
 
     private void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
+        //Debug.Log("NotLoaded");
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)

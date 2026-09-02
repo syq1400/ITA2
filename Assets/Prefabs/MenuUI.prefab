@@ -331,7 +331,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 4460332447563339725}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: TabControl, Assembly-CSharp
           m_MethodName: ActivateTab
           m_Mode: 3
@@ -1387,7 +1387,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 4460332447563339725}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: TabControl, Assembly-CSharp
           m_MethodName: ActivateTab
           m_Mode: 3
@@ -1410,8 +1410,6 @@ GameObject:
   - component: {fileID: 6165141399776280201}
   - component: {fileID: 5966944416590935836}
   - component: {fileID: 797168176353650598}
-  - component: {fileID: 4460332447563339725}
-  - component: {fileID: 2761682490392877036}
   m_Layer: 5
   m_Name: PlayerTab
   m_TagString: Untagged
@@ -1477,57 +1475,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4460332447563339725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8191514665804304167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75262fe93b394469ea7dd8ed3256386e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TabControl
-  tabImages:
-  - {fileID: 797168176353650598}
-  - {fileID: 207209637633551240}
-  - {fileID: 5878823439893341982}
-  - {fileID: 2458302240480207604}
-  pages:
-  - {fileID: 3004622828633447620}
-  - {fileID: 6372173879386616042}
-  - {fileID: 2755338661292556791}
-  - {fileID: 4734476172848527482}
---- !u!114 &2761682490392877036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8191514665804304167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 2
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 3661799585776627935}
-          m_TargetAssemblyTypeName: TabControl, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &9176757891166586174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,7 +1592,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 4460332447563339725}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: TabControl, Assembly-CSharp
           m_MethodName: ActivateTab
           m_Mode: 3
