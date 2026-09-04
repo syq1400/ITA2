@@ -2981,7 +2981,7 @@ PrefabInstance:
     - target: {fileID: 7681817131714907042, guid: 380456c6621a84f0b86ed9ef31c0693d, type: 3}
       propertyPath: dialogueSO
       value: 
-      objectReference: {fileID: 11400000, guid: 65fec74cb8d01446785b2c184eee7dc2, type: 2}
+      objectReference: {fileID: 11400000, guid: 5473e097c3df64a6ab8f6e151e7c2a92, type: 2}
     - target: {fileID: 7681817131714907042, guid: 380456c6621a84f0b86ed9ef31c0693d, type: 3}
       propertyPath: dialoguePrompt
       value: 
@@ -271014,6 +271014,10 @@ PrefabInstance:
     - target: {fileID: 357982536097829708, guid: 380456c6621a84f0b86ed9ef31c0693d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448363781008269777, guid: 380456c6621a84f0b86ed9ef31c0693d, type: 3}
+      propertyPath: currentState
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5816506418820680050, guid: 380456c6621a84f0b86ed9ef31c0693d, type: 3}
       propertyPath: m_Name
