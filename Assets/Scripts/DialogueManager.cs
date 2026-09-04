@@ -11,14 +11,16 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text actorName;
     public TMP_Text dialogueText;
     
+    public TMP_Text dialoguePrompt;
     public bool isDialogueActive;
     
     private DialogueSO _currentDialogue;
     private int _dialogueIndex;
+    private int _saveMoveSpeed;
 
     private void Start()
     {
-        ShowDialogue();
+        _saveMoveSpeed = StatsManager.Instance.moveSpeed;
     }
 
     private void Awake()
@@ -39,6 +41,7 @@ public class DialogueManager : MonoBehaviour
         _currentDialogue = dialogue;
         _dialogueIndex = 0;
         isDialogueActive = true;
+        dialoguePrompt.enabled = false;
         
         ShowDialogue();
     }
@@ -52,16 +55,18 @@ public class DialogueManager : MonoBehaviour
         else
         {
             EndDialogue();
+            StatsManager.Instance.moveSpeed = _saveMoveSpeed;
         }
     }
     
     private void ShowDialogue()
     {
         DialogueLine line = _currentDialogue.lines[_dialogueIndex];
-
+        
         actorName.text = line.speaker.actorName;
         dialogueText.text = line.text;
         dialogueCanvas.enabled = true;
+        StatsManager.Instance.moveSpeed = 0;
         
         _dialogueIndex++;
     }
@@ -71,5 +76,6 @@ public class DialogueManager : MonoBehaviour
         _dialogueIndex = 0;
         isDialogueActive = false;
         dialogueCanvas.enabled = false;
+        dialoguePrompt.enabled = true;
     }
 }

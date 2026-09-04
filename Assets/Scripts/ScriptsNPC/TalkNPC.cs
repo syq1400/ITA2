@@ -32,7 +32,6 @@ public class TalkNPC : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            dialoguePrompt.enabled = false;
             
             if (DialogueManager.Instance.isDialogueActive)
             {

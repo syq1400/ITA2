@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e925a39c4c94255997f8688954876b, type: 3}
+  m_Name: OldManDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: 7461e2480208d4f9ea4aba32f286ead4, type: 2}
+    text: I used to live by the sea, until a monster came and ate my wife.
+  - speaker: {fileID: 11400000, guid: 7461e2480208d4f9ea4aba32f286ead4, type: 2}
+    text: I blocked the path to it for everyones safety, I'm only telling you this
+      so you don't try and go visit
+  - speaker: {fileID: 11400000, guid: 0534492054e7a447d8f6d1f025eb564d, type: 2}
+    text: ...

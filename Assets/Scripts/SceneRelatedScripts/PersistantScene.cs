@@ -8,8 +8,6 @@ public class PersistantScene : MonoBehaviour
     [Header("Persistent Objects")]
     public GameObject[] persistantObjects;
     
-    
-    
     private void Awake()
     {
         if (Instance != null)

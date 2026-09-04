@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e925a39c4c94255997f8688954876b, type: 3}
+  m_Name: StageOpeningDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSO
+  lines:
+  - speaker: {fileID: 11400000, guid: 1ae76ec6282894d53a192840482fcad4, type: 2}
+    text: Ebi, you won! Your uncle would be proud
+  - speaker: {fileID: 11400000, guid: 1ae76ec6282894d53a192840482fcad4, type: 2}
+    text: 'Your next show is being held in Beach City right? Remember how to get
+      there? '
+  - speaker: {fileID: 11400000, guid: 1ae76ec6282894d53a192840482fcad4, type: 2}
+    text: 'Follow the street lights on the right stay on the yellow road that starts
+      in the forest '
+  - speaker: {fileID: 11400000, guid: 1ae76ec6282894d53a192840482fcad4, type: 2}
+    text: 'Leave as long your sure you have nothing else to do.. Some places don''t
+      stay forever '
+  - speaker: {fileID: 11400000, guid: 0534492054e7a447d8f6d1f025eb564d, type: 2}
+    text: '... '

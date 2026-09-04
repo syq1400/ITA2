@@ -9,7 +9,8 @@ public class StatsManager : MonoBehaviour
     public string playerName;
     public int playerWins;
     public int playerMoney;
-
+    public string[] playerInventory;
+    
     private void Awake()
     {
         if (Instance == null)

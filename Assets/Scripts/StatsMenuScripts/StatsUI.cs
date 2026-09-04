@@ -34,11 +34,17 @@ public class StatsUI : MonoBehaviour
     {
         playerMenu[2].GetComponentInChildren<TMP_Text>().text = "Wins:" + StatsManager.Instance.playerWins;
     }
+    
+    private void UpdateInventory()
+    {
+        playerMenu[3].GetComponentInChildren<TMP_Text>().text = "Inventory: \n" + StatsManager.Instance.playerInventory;
+    }
 
     private void UpdateAllStats()
     {
         UpdateName();
         UpdateMoney();
         UpdateWins();
+        UpdateInventory();
     }
 }
